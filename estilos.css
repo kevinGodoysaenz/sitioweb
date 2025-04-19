@@ -81,6 +81,8 @@ body{
 }
 
 #seccion {
+    font-size: large;
+    color: #eff2f5;
     float:left;
     width: 660px; 
     margin: 20px;
@@ -123,11 +125,12 @@ span.sub{
 
  
 #lateral {
+    font-size: 20px;
     float:left;
     width: 220px;
     margin: 20px 0px;
     padding: 20px;
-    background: rgb(247, 154, 111);
+    background: rgba(10, 9, 9, 0.341);
     -moz-border-raidus: 20px;
     -webkit-border-raidus: 20px;
     border-radius: 20px;
@@ -136,14 +139,23 @@ span.sub{
     box-shadow:  rgb(150, 150, 150) 5px 5px;
 }
 
+.datos{
+    color: white;
+    font-weight: bold;
+}
 table{
     text-shadow: #eff2f5 2px 2px 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
 }
 #pie {
+
+    background-color: rgba(255, 255, 255, 0.571);
+    -moz-border-raidus: 20px;
+    -webkit-border-raidus: 20px;
+    border-radius: 20px;
     clear: both;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     border-top: 5px solid rgb(2, 187, 79);
 }
